@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Poppy Playtime Chapter 4</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
@@ -20,6 +24,7 @@
 
     .container {
       max-width: 500px;
+      width: 100%;
       text-align: center;
     }
 
@@ -31,13 +36,13 @@
     }
 
     h1 {
-      font-size: 28px;
+      font-size: 26px;
       margin-bottom: 10px;
       color: #f04159;
     }
 
     p {
-      font-size: 16px;
+      font-size: 15px;
       color: #ccc;
       margin-bottom: 20px;
     }
@@ -61,28 +66,30 @@
     }
 
     .review {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 15px;
       font-size: 20px;
       color: gold;
+      margin-bottom: 10px;
     }
 
     .platforms {
-      display: flex;
-      justify-content: center;
-      gap: 10px;
-      margin-bottom: 30px;
+      font-size: 18px;
+      margin-bottom: 25px;
     }
 
-    .platform-badge {
-      background-color: #333;
-      border-radius: 20px;
-      padding: 6px 14px;
-      font-size: 14px;
-      color: #fff;
-      border: 1px solid #555;
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 22px;
+      }
+      .btn {
+        font-size: 14px;
+        padding: 12px 24px;
+      }
+      .review, .platforms {
+        font-size: 16px;
+      }
+      p {
+        font-size: 14px;
+      }
     }
   </style>
 </head>
@@ -91,18 +98,25 @@
   <div class="container">
     <img src="images/WhatsApp Image 2025-05-11 at 13.43.03.jpeg" alt="Poppy Playtime Chapter 4">
     <h1>Poppy Playtime Chapter 4</h1>
+    
     <div class="review" aria-label="Rated 4 out of 5 stars">
       ★★★★☆
     </div>
+    
     <div class="platforms">
-      <div class="platform-badge">Available on Android</div>
-      <div class="platform-badge">Available on iOS</div>
+      📱 Available on Android & iOS 🍏
     </div>
+    
     <p>
       Get ready for the most terrifying chapter yet! Explore new areas, face horrifying enemies, and uncover the dark secrets behind Playtime Co. Chapter 4 brings new gameplay mechanics, puzzles, and heart-pounding suspense.
     </p>
+    
     <a href="https://dawn-apps.github.io/landingPage/" class="btn">View Game</a>
   </div>
+
+</body>
+</html>
+
 
 </body>
 </html>
