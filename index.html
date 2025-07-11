@@ -39,7 +39,7 @@
     p {
       font-size: 16px;
       color: #ccc;
-      margin-bottom: 30px;
+      margin-bottom: 20px;
     }
 
     .btn {
@@ -53,10 +53,36 @@
       transition: background 0.3s;
       text-decoration: none;
       display: inline-block;
+      margin-top: 20px;
     }
 
     .btn:hover {
       background: #d03045;
+    }
+
+    .review {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+      font-size: 20px;
+      color: gold;
+    }
+
+    .platforms {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .platform-badge {
+      background-color: #333;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 14px;
+      color: #fff;
+      border: 1px solid #555;
     }
   </style>
 </head>
@@ -65,6 +91,13 @@
   <div class="container">
     <img src="images/WhatsApp Image 2025-05-11 at 13.43.03.jpeg" alt="Poppy Playtime Chapter 4">
     <h1>Poppy Playtime Chapter 4</h1>
+    <div class="review" aria-label="Rated 4 out of 5 stars">
+      ★★★★☆
+    </div>
+    <div class="platforms">
+      <div class="platform-badge">Available on Android</div>
+      <div class="platform-badge">Available on iOS</div>
+    </div>
     <p>
       Get ready for the most terrifying chapter yet! Explore new areas, face horrifying enemies, and uncover the dark secrets behind Playtime Co. Chapter 4 brings new gameplay mechanics, puzzles, and heart-pounding suspense.
     </p>
@@ -73,3 +106,4 @@
 
 </body>
 </html>
+
